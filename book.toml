@@ -1,0 +1,18 @@
+[book]
+title = "Aprendendo Bitwig Studio"
+description = "Síntese sonora e produção musical com o Bitwig Studio: conceitos interativos e prática no software."
+authors = ["Fernando Figueira"]
+language = "pt-BR"
+src = "src"
+
+[output.html]
+site-url = "/livro-bitwig/"
+git-repository-url = "https://github.com/fmarquesfilho/livro-bitwig"
+edit-url-template = "https://github.com/fmarquesfilho/livro-bitwig/edit/main/{path}"
+additional-css = ["theme/demos.css"]
+additional-js = ["theme/demos.js"]
+mathjax-support = true
+
+[output.html.fold]
+enable = true
+level = 1
